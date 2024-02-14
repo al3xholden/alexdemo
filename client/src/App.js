@@ -1,6 +1,10 @@
 import Navbar from "./components/Navbar"
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Skills from "./pages/Skills"
+import Footer from "./components/footer"
+import Projects from "./pages/Projects";
+
 
 function App() {
   return (
@@ -8,9 +12,11 @@ function App() {
       <Navbar />
       <Home />
       <About />
-
-    
-    </div>
+      <Skills />
+      <Projects />
+      <Footer />
+      
+    </div> 
   );
 }
 

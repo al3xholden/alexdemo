@@ -11,6 +11,9 @@ li {
   font-family: 'Teko', sans-serif;
 }
 
+text4skills {
+  font-family: 'Teko', sans-serif;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -24,4 +27,8 @@ li {
 
 
     @apply flex list-none
+}
+
+body {
+  background-color: #101114;
 }
