@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Projects = () => {
+const MyProjects = () => {
   return (
     <div id='projects' name='home' className='w-full h-screen bg-[#101114]'>
 
@@ -16,4 +16,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default MyProjects

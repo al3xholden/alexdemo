@@ -2,8 +2,7 @@ import Navbar from "./components/Navbar"
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills"
-import Footer from "./components/footer"
-import Projects from "./pages/Projects";
+import MyProjects from "./pages/MyProjects";
 
 
 function App() {
@@ -13,8 +12,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Projects />
-      <Footer />
+      <MyProjects />
       
     </div> 
   );
