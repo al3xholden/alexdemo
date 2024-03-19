@@ -11,10 +11,12 @@ const Skills = () => {
     <div id='skills' name='home' className='w-full h-screen bg-[#101114]'>
 
       <div className='max-w-[1000px] mx-auto px-12 flex flex-col justify-center h-full'style={{userSelect:'none'}}>
-        
-        <h1 className='text-[#E2F0FF] text-3xl sm:text-7xl font-bold border-[#5fdf3f]'>My Skills</h1>
-
-        <p className='text-[#adadad] py-4 max-w-[700px] sm:max-w-none sm:whitespace-normal'>These are the technologies that I've worked with</p>
+        <div class="flex justify-end">
+         <div class="max-w-md p-8 rounded-lg shadow-lg">
+          <h1 className='text-[#E2F0FF] text-3xl sm:text-7xl font-bold border-[#5fdf3f]'>// My Skills</h1>
+         
+         </div>
+        </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 select-none'>
           <div className='shadow-md shadow-[#101114] hover:scale-110 duration-500'>

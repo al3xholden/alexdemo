@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import { HiAcademicCap, HiIdentification } from "react-icons/hi2";
 import { Link } from 'react-scroll';
 import Scrollspy from 'react-scrollspy';
 
@@ -75,7 +76,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='hover:text-[#adadad]'>
-                        <a href="/">
+                        <a href="https://github.com/al3xholden">
                             <FaGithub size={20} />
                         </a>
                     </li>
@@ -83,7 +84,7 @@ const Navbar = () => {
                 
             </ul>
 
-            <div className='hidden lg:flex fixed flux-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flux-col top-[25%] left-0'>
                 <ul>
                     <li className='w-[130px] h-[60px] flex justify-between items-center ml-[-70px] hover:ml-[-10px] hover:pl-6 duration-100'>
                         <a className=' flex justify-between items-center w-full text-grey-300 ' href="https://www.linkedin.com/in/alexander-holden-9b4a00215/">
@@ -92,7 +93,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='w-[130px] h-[60px] flex justify-between items-center ml-[-70px] hover:ml-[-10px] hover:pl-6 duration-100'>
-                        <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                        <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/al3xholden">
                             GitHub <FaGithub size={30} className='text-[#E2F0FF]' />
                         </a>
                     </li>
@@ -100,6 +101,18 @@ const Navbar = () => {
                     <li className='w-[130px] h-[60px] flex justify-between items-center ml-[-70px] hover:ml-[-10px] hover:pl-6 duration-100 '>
                         <a className='flex justify-between items-center w-full text-grey-300' href="/">
                             Email <HiOutlineMail size={30} className='text-[#E2F0FF]' />
+                        </a>
+                    </li>
+
+                    <li className='w-[130px] h-[60px] flex justify-between items-center ml-[-70px] hover:ml-[-10px] hover:pl-6 duration-100 '>
+                        <a className='flex justify-between items-center w-full text-grey-300' href="https://dcwveri.plymouth.ac.uk/?reference=10790365-01-T3NR">
+                            Degree <HiAcademicCap size={30} className='text-[#E2F0FF]' />
+                        </a>
+                    </li>
+
+                    <li className='w-[130px] h-[60px] flex justify-between items-center ml-[-70px] hover:ml-[-10px] hover:pl-6 duration-100 '>
+                        <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                            My CV <HiIdentification size={30} className='text-[#E2F0FF]' />
                         </a>
                     </li>
                 </ul>
