@@ -10,10 +10,10 @@ const Skills = () => {
   return (
     <div id='skills' name='home' className='w-full h-screen bg-[#101114]'>
 
-      <div className='max-w-[1000px] mx-auto px-12 flex flex-col justify-center h-full'style={{userSelect:'none'}}>
-        <div class="flex justify-end">
-         <div class="max-w-md p-8 rounded-lg shadow-lg">
-          <h1 className='text-[#E2F0FF] text-3xl sm:text-7xl font-bold border-[#5fdf3f]'>// My Skills</h1>
+      <div className='max-w-[1000px] mx-auto px-12 flex flex-col justify-center h-full' style={{userSelect:'none'}}>
+        <div className="flex justify-end">
+         <div className="max-w-md p-8 rounded-lg shadow-lg">
+          <h1 className='text-[#E2F0FF] text-3xl sm:text-7xl font-bold border-[#5fdf3f]'>My Skills</h1>
          
          </div>
         </div>
